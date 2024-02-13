@@ -1,10 +1,14 @@
 body{
-    background:#EDF9F1; 
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/206/original/pexels-eberhard-grossgasteiger-572897.jpg?1707824152);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: sans-serif;
 }
 
 select{
 color: #113A5D;
+background-color: #F7FCFA;
+opacity: 0,8;
 display: block;
 width: 100%;
 padding: 10px;
@@ -24,11 +28,12 @@ font-size: 28px;
 }
 
 .container{    
-color:#062743;
+color:#380643;
 max-width: 600px;
 margin: 60px auto;
 background-color:#F7FCFA;
-padding: 30px;
+opacity: 0.8;
+padding: 25px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 10px;}
 
@@ -60,9 +65,10 @@ justify-content: space-between;
 }
 
 a{
-color:#113A5D;
+color:#4d0245;
 }
 footer{
 text-align: center;
 font-size: 16px;
-color:rgba(0,0,0,0.8)}
+color:white;
+opacity:0.9; }
